@@ -55,6 +55,7 @@ html {
   /* 10px / 16px = 0.625 = 62.5% */
   /* Percentage of user's browser font-size */
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 body {
@@ -62,6 +63,9 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+
+  /* Only works if there is nothing absolutely positioned in relation to body */
+  overflow-x: hidden;
 }
 
 /******************************/
@@ -70,7 +74,7 @@ body {
 
 .container {
   /* 1140px */
-  max-width: 100rem;
+  max-width: 98rem;
   padding: 0 2.8rem;
   margin: 0 auto;
 }
