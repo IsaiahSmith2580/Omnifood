@@ -103,9 +103,9 @@
 }
 
 .hero {
-  max-width: 98rem;
+  max-width: 95rem;
   margin: 0 auto;
-  padding: 0 9rem;
+  padding: 0 9.6rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 8rem;
